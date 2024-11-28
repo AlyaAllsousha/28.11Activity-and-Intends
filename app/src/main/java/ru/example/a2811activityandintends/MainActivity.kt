@@ -3,6 +3,8 @@ package ru.example.a2811activityandintends
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.activity.result.contract.ActivityResultContract
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.databinding.DataBindingUtil
 import ru.example.a2811activityandintends.databinding.ActivityMainBinding
 
@@ -16,5 +18,5 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(intent, 123)
         }
     }
-    val
+//    val launcher = registerForActivityResult(ActivityResultContracts.StartActivityForResult)
 }
