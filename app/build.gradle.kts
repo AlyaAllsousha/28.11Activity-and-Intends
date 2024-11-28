@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "ru.example.a2811activityandintends"
-    compileSdk = 33
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ru.example.a2811activityandintends"
         minSdk = 31
-        targetSdk = 33
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -32,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    dataBinding{
+        enable = true
     }
 }
 
