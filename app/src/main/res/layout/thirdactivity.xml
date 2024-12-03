@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="bind"
+            type="ru.example.a2811activityandintends.ThirdActivity" />
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+<TextView
+    android:id="@+id/TV3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Third"
+    android:textSize="20sp">
+</TextView>
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Return">
+
+    </Button>
+</LinearLayout>
+</layout>
